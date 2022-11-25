@@ -27,7 +27,7 @@ class _CounterScreenState extends State<CounterScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Tap counter:', style: styleMsg),
+            const Text('Taps counter:', style: styleMsg),
             Text(
               '$counter',
               style: styleMsg,
