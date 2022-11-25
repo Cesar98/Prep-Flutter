@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project1/screens/counter_screen.dart';
+// import 'package:project1/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,6 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Center(child: Text('My very first app')));
+    return MaterialApp(
+        theme: ThemeData.dark(),
+        debugShowCheckedModeBanner: false,
+        home: const CounterScreen());
   }
 }
